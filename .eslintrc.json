@@ -1,0 +1,9 @@
+{
+  "plugins": ["react", "only-warn"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "prettier/prettier": "warn"
+  },
+  "extends": ["some-other-config-you-use", "prettier"]
+}
